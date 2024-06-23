@@ -17,19 +17,19 @@
 import PackageDescription
 
 let package = Package(
-  name: "GenerativeAIUIComponents",
+  name: "GeminiAIUIComponents",
   platforms: [
     .iOS(.v16),
   ],
   products: [
     .library(
-      name: "GenerativeAIUIComponents",
-      targets: ["GenerativeAIUIComponents"]
+      name: "GeminiAIUIComponents",
+      targets: ["GeminiAIUIComponents"]
     ),
   ],
   targets: [
     .target(
-      name: "GenerativeAIUIComponents"
+      name: "GeminiAIUIComponents"
     ),
   ]
 )
