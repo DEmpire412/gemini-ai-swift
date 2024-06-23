@@ -18,7 +18,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "generative-ai-swift",
+  name: "gemini-ai-swift",
   platforms: [
     .iOS(.v11),
     .macOS(.v10_13),
@@ -26,18 +26,18 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "GoogleGenerativeAI",
+      name: "GoogleGeminiAI",
       targets: ["GoogleGenerativeAI"]
     ),
   ],
   targets: [
     .target(
-      name: "GoogleGenerativeAI",
+      name: "GoogleGeminiAI",
       path: "Sources"
     ),
     .testTarget(
-      name: "GoogleGenerativeAITests",
-      dependencies: ["GoogleGenerativeAI"],
+      name: "GoogleGeminiAITests",
+      dependencies: ["GoogleGeminiAI"],
       path: "Tests",
       resources: [
         .process("GoogleAITests/CountTokenResponses"),
