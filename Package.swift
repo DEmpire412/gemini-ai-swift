@@ -27,7 +27,7 @@ let package = Package(
   products: [
     .library(
       name: "GoogleGeminiAI",
-      targets: ["GoogleGenerativeAI"]
+      targets: ["GoogleGeminiAI"]
     ),
   ],
   targets: [
