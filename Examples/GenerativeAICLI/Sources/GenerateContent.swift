@@ -14,7 +14,7 @@
 
 import ArgumentParser
 import Foundation
-import GoogleGenerativeAI
+import GoogleGeminiAI
 
 @main
 struct GenerateContent: AsyncParsableCommand {
